@@ -1,0 +1,47 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter {
+  font-size: 250px;
+  color: steelblue;
+  filter: drop-shadow(4px 4px 1px #8aadcc);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.actions div {
+  width: 250px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: steelblue;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 44px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 1px #8aadcc;
+}
+
+.actions div:hover {
+  background-color: #3d75a2;
+}
+
+.actions div:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
